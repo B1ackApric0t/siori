@@ -1,0 +1,157 @@
+<div>
+
+	<div class="display_menu block_menu" align="center">
+
+		<div style="clear:both"></div>
+
+		<div style="margin-top:100px">
+
+			<div class="menu_item menu_save" style="left:130px;top:190px;position:absolute;">
+			<img src="tyrano/images/system/save.png" alt="" class="non">
+			</div>
+
+			<div class="menu_item menu_load" style="left:130px;top:270px;position:absolute;">
+			<img src="tyrano/images/system/load.png" alt="" class="non">
+			</div>
+			
+			<div class="menu_item menu_skip" style="left:130px;top:350px;position:absolute;">
+			<img src="tyrano/images/system/skip.png" alt="" class="non">
+			</div>
+			
+			<div class="menu_item menu_auto" style="left:130px;top:430px;position:absolute;">
+			<img src="tyrano/images/system/auto.png" alt="" class="non">
+			</div>
+
+            <div class="menu_item menu_config" style="left:330px;top:190px;position:absolute;">
+			<img src="tyrano/images/system/config.png" alt="" class="non">
+			</div>
+			
+			<div class="menu_item menu_log" style="left:330px;top:270px;position:absolute;">
+			<img src="tyrano/images/system/backlog.png" alt="" class="non">
+			</div>
+
+			<div class="menu_item menu_back_title" style="left:330px;top:350px;position:absolute;">
+			<img src="tyrano/images/system/title.png" alt="" class="non">
+			</div>
+			
+			
+			<div class="menuback menu_close menu_item" style="left:330px;top:430px;position:absolute;">
+			<img src="tyrano/images/system/back.png" alt="" class="non">
+			</div>
+			
+			
+			<div class="kasa" style="left:650px;top:-210px;position:absolute;transition:0.6s;">
+			<img src="tyrano/images/system/umbrella.png">
+			</div>
+			
+			<div id="top" style='left:720px;top:320px;position:absolute;'>
+			</div>
+			
+			<div class="menu_close">
+				<img src="tyrano/images/system/black.png" style="z-index:-2;left:0;top:0;width:100%;height:100%;position:absolute;opacity:0.5;">
+			</div>
+			
+
+		</div>
+
+	</div>
+	
+</div>
+
+<script>
+$('.menu_save').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/save_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_load').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/load_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_skip').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/skip_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_auto').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/auto_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_config').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/config_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_log').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/backlog_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menu_back_title').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/title_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+
+$('.menuback').hover(
+function(){
+ $.when(
+  $('.kasa').css('transform','rotate(-180deg)')
+).done(function() {
+ $('#top').css({'transition':'0.5s','background-image':'url("tyrano/images/system/back_top.png")'});
+});
+},function(){
+  $('#top').css({'transition':'0s','background-image':'url("")'});
+  $('.kasa').css('transform','rotate(0)');
+});
+</script>

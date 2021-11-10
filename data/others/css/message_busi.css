@@ -1,0 +1,11 @@
+.message_inner{
+	text-shadow: 0 0 0 #000000;
+}
+
+div.circle {
+  top: 550px;
+  left: 470px; 
+  padding-left: 3px;
+  margin: 0px auto;
+  border: #000000 2.5px solid;
+}
