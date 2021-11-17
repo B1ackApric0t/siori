@@ -28,7 +28,7 @@ tyrano.plugin.kag.menu = {
       }), e.find(".menu_load").click(function (t) {
         1 != n && (n = !0, a.displayLoad(), t.stopPropagation())
       }), e.find(".menu_config").click(function (t) {
-        1 != n && (n = !0, a.displayConfig(), t.stopPropagation())
+        e.hide(),1 != n && (n = !0, tyrano.plugin.kag.ftag.startTag("sleepgame",{storage:"config.ks",next:false}))
       }), e.find(".menu_log").click(function (t) {
         1 != n && (n = !0, a.displayLog(), t.stopPropagation())
       }), e.find(".menu_back_title").click(function () {

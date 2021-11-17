@@ -126,10 +126,7 @@ $('#tl').mousemove(function(e){
 
 *gamestart
 
-[html]
-<img src="data/bgimage/black.png" class="fadein">
-[endhtml]
-[wait time=1500]
+[wait time=1000]
 
 @jump storage="scene1.ks"
 

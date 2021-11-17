@@ -3,7 +3,7 @@
 [clearfix]
 [start_keyconfig]
 [fadeoutbgm time=300]
-[wait time=1000]
+[wait time=500]
 [fadeinse storage=rain_kasa.ogg loop=true time=2000]
 [mask time=500]
 [bg storage="black.png" time="1000"]
